@@ -1,0 +1,15 @@
+@function set-color($color) {
+    @if (lightness($color) > 40%) {
+      @return #000;
+    }
+    @else {
+      @return #FFF;
+    }
+}
+$languages :"react","angular","Sass";
+@function first($list){
+    @return nth($list,1);
+}
+@function last($list){
+    @return nth($list,-1);
+}

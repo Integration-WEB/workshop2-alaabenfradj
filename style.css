@@ -1,0 +1,28 @@
+.text, textarea, h1 {
+  color: red;
+  font-size: 20px;
+  content: "react";
+}
+
+.btn {
+  border: 3px solid yellow;
+}
+
+body {
+  background-color: wheat;
+  color: #000;
+}
+
+.div1::before {
+  color: red;
+  font-size: 20px;
+  content: "react";
+}
+
+.div2::before{
+  color: blue;
+  font-size: 20px;
+  content: "Sass";
+}
+
+/*# sourceMappingURL=style.css.map */
